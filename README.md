@@ -12,7 +12,7 @@ Should be ready to go!
 
 ## Tasks
 
-*Form 01*
+######*Form 01*
 Run tests and fix the code so the tests will all pass.
 
 
@@ -26,7 +26,7 @@ When setting the price to 300 and weight to 0 in the Price Calculator and clicki
 ***Fix***
 This can be fixed by changing the line of code that causes this error.
 src/forms/price-calculations/PriceCalculationsService.test.ts:9
-´expect(calculate(300, 0, false)).toBe(270);´ >> `expect(calculate(300, 0, false)).toBe(255);`
+`expect(calculate(300, 0, false)).toBe(270);` >> `expect(calculate(300, 0, false)).toBe(255);`
 
 Following that change, running the test suite again will return another error, caused by line 10.
 This will continue to be the case until we've changed line 14.
@@ -40,7 +40,7 @@ This will continue to be the case until we've changed line 14.
 Changing lines 9-14 will resolve this issue and return all tests as passed. (4 passed, 4 total)
 
 
-*Form 02*
+######*Form 02*
 Add at least 10 more tests. Try to test on the edge of different value ranges. For example `age < 18`
 
 
@@ -59,10 +59,10 @@ Added 10 tests:
 `expect(calculate(47, 0)).toBe(24);`
 `expect(calculate(15, 53)).toBe(27);`
 
-All of the tests returned as passed.
+All the tests returned as passed.
 
 
-*Form 03*
+######*Form 03*
 Tests are missing - add them (following the requirement given in the test file).
 
 
@@ -86,7 +86,7 @@ Added 2 tests for every grade:
 All of the tests passed.
 
 
-*Create a 'Form 04'*
+######*Create a 'Form 04'*
 Using previous patterns (or better ones) create a form that that turns gross salary into net salary. The calculator should have one input that the user will fill with the gross salary. Clicking the 'Calculate' button should show the user their net salary.
 
 You can use [Palgakalkulaator](https://www.kalkulaator.ee/et/palgakalkulaator) to create some tests first and then try to develope your code based on that. Note that you can check/uncheck deductions on the right (helps while writing code).
