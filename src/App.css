@@ -1,0 +1,78 @@
+.Header {
+  font-size: 1rem;
+  background-color: #000;
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 2px 4px rgb(17, 67, 145, 0.3);
+  line-height: 95px;
+  text-align: center;
+}
+
+.Container {
+  height: 100%;
+  max-width: 1280px;
+  width: 100%;
+  padding-right: calc(var(--gutter) / 2);
+  padding-left: calc(var(--gutter) / 2);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.Main {
+  padding: calc(var(--gutter) * 2) 0;
+}
+
+.Form {
+  background-color: #f5f7fa;
+  padding: var(--gutter);
+  margin: var(--gutter) 0;
+}
+
+.Form + .Form {
+  margin-top: var(--gutter);
+}
+
+.Label {
+  display: block;
+  margin-bottom: 0.2142rem;
+  color: #686868;
+}
+
+.Input {
+  display: block;
+  width: 100%;
+  border: 1px solid #cecece;
+  border-radius: 2px;
+  box-shadow: inset 1px 1px 4px rgba(0, 0, 0, 0.1);
+  padding: 4px 8px;
+  min-height: 35px;
+  transition: all .2s ease-in-out;
+}
+
+.Button {
+  display: inline-block;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  border-radius: 2px;
+  border: 0;
+  padding: 0.8125rem;
+  min-width: 180px;
+  max-width: 100%;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Poster {
+  display: inline-block;
+  font-size: 1rem;
+  text-align: center;
+  background-color: #20c4f4;
+  border-radius: 2px;
+  padding: 0.8125rem;
+  min-width: 180px;
+  max-width: 100%;
+  font-weight: 600;
+}

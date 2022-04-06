@@ -1,0 +1,1 @@
+export type CourseGradeResult = 'failed' | 'satisfactory' | 'good' | 'very good';
